@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { GenericMeta } from "components/GenericMeta";
+import { Meta } from "../../components/Meta";
 import FadeIn from "react-fade-in";
 
 interface Props {
@@ -9,7 +9,7 @@ interface Props {
   margin?: boolean;
 }
 
-export const MainLayout = ({
+export const Main = ({
   children,
   title,
   description,
@@ -17,12 +17,9 @@ export const MainLayout = ({
 }: Props) => {
   return (
     <>
-      {title && description && (
-        <GenericMeta title={title} description={description} />
-      )}
-
-      <FadeIn className="flex flex-col max-w-3xl mx-auto mb-16 sm:px-0">
-        {title && <h1 className="text-5xl font-bold">{title}</h1>}
+      {title && description && <Meta title={title} description={description} />}
+      <FadeIn className="flex flex-col max-w-3xl mx-auto mb-auto sm:px-0 overflow-auto">
+        {title && <h1 className="text-3xl font-bold">{title}</h1>}
         {description && (
           <p className="text-gray-600 dark:text-gray-400 mt-2">{description}</p>
         )}
