@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Toaster position="bottom-right" />
 
-      <div className="dark:bg-black flex flex-col min-h-screen py-16 ">
+      <div className="dark:bg-black flex flex-col min-h-screen py-16">
         <Navbar />
         <div className="h-full lg:px-10 px-10">
           <Component {...pageProps} />

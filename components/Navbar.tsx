@@ -35,7 +35,7 @@ const NavbarCompass = () => {
 export const Navbar = ({ dense }: Props) => {
   return (
     <FadeIn>
-      <nav className="z-50 w-full flex justify-start items-center mx-auto max-w-4xl lg:px-16 px-10 my-16 dark:text-white text-black">
+      <nav className="z-50 w-full flex justify-start items-center mx-auto max-w-4xl lg:px-16 px-10 lg:my-16 dark:text-white text-black">
         <NavbarCompass />
         {RouteData.filter((route) => route.type !== "dropdown").map((route) => (
           <NavbarItem key={uuidv4()} name={route.name} href={route.href} />
