@@ -1,5 +1,5 @@
 import { Meta } from "../components/Meta";
-import { Main } from "./layouts/Main";
+import { Main } from "../layouts/Main";
 import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 import { Friends } from "../data/friends";

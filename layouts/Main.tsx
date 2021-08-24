@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Meta } from "../../components/Meta";
+import { Meta } from "../components/Meta";
 import FadeIn from "react-fade-in";
 
 interface Props {

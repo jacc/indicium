@@ -1,5 +1,5 @@
 import { Meta } from "../components/Meta";
-import { Main } from "./layouts/Main";
+import { Main } from "../layouts/Main";
 import { age } from "../data/age";
 import { toast } from "react-hot-toast";
 import { getCodingTime } from "../data/coding";

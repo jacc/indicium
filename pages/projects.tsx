@@ -1,5 +1,5 @@
 import { Meta } from "../components/Meta";
-import { Main } from "./layouts/Main";
+import { Main } from "../layouts/Main";
 import { age } from "../data/age";
 import Link from "next/link";
 import { ProjectCard } from "../components/Project";
