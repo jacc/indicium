@@ -33,7 +33,7 @@ export const Friends: Friend[] = [
   {
     name: "Ian Mitchell",
     social: "https://twitter.com/IanMitchel1",
-    info: "Discord engineer, old man and great friend - always pushes me to write better code",
+    info: "Discord engineer and great friend - always pushes me to write better code",
   },
   {
     name: "Leah Lundqvist",
