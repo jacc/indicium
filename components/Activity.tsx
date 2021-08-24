@@ -25,7 +25,7 @@ const getActivity = (activity) => {
 };
 
 export function Activity() {
-  const { data: activity } = useLanyard("657057112593268756");
+  const { data: activity } = useLanyard(process.env.NEXT_PUBLIC_DISCORD_ID);
   if (!activity) return null;
 
   const normalizedActivity = getActivity(activity);

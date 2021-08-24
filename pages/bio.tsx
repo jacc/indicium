@@ -50,7 +50,7 @@ export default function Bio() {
           <span>
             my full CV is available on request via{" "}
             <span className="dark:text-gray-300 text-gray-800 hover:underline transition duration-300 ease-in-out outline-none focus:outline-none focus:rin">
-              <Link href="mailto:jack@lafond.dev">email</Link>
+              <Link href="mailto:hi@jack.link">email</Link>
             </span>
             .
           </span>

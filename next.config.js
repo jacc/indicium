@@ -24,12 +24,7 @@ module.exports = {
       },
       {
         source: "/lastfm",
-        destination: "https://last.fm/j9ck",
-        permanent: true,
-      },
-      {
-        source: "/mail",
-        destination: "mailto:hi@jack.link",
+        destination: "https://last.fm/user/j9ck",
         permanent: true,
       },
     ];

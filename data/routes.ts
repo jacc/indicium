@@ -17,4 +17,8 @@ export const RouteData: Route[] = [
     name: "projects",
     href: "/projects",
   },
+  {
+    name: "etc",
+    href: "/etc",
+  },
 ];

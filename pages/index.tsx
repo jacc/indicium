@@ -11,16 +11,15 @@ import {
   Inbox,
   Instagram,
   Linkedin,
-  Mail,
   Twitter,
 } from "react-feather";
 
 const handleClick = async () => {
   const id = toast.loading("Loading...");
 
-  // const time = await getCodingTime();
+  const time = await getCodingTime();
 
-  toast(`I've coded for aaaa this week!`, {
+  toast(`I have spent ${time} coding this month!`, {
     icon: "🕗",
     id,
   });
@@ -31,7 +30,7 @@ export default function Home() {
     <>
       <Meta
         title="Jack LaFond"
-        description="18-year-old software developer and student from the United Kingdom."
+        description="18 year old student and developer from the US"
       />
 
       <Main>
@@ -53,7 +52,7 @@ export default function Home() {
           <Social href={"/linkedin"} icon={<Linkedin></Linkedin>} />
           <Social href={"/instagram"} icon={<Instagram></Instagram>} />
           <Social href={"/lastfm"} icon={<Headphones></Headphones>} />
-          <Social href={"/mail"} icon={<Inbox></Inbox>} />
+          <Social href={"mailto:hi@jack.link"} icon={<Inbox></Inbox>} />
         </div>
         <Activity />
       </Main>

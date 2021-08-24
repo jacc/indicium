@@ -2,8 +2,6 @@ import NextLink from "next/link";
 import { v4 as uuidv4 } from "uuid";
 import { Route, RouteData } from "../data/routes";
 import { Compass } from "react-feather";
-import useSound from "use-sound";
-import { ReactNode, useEffect } from "react";
 import FadeIn from "react-fade-in";
 
 interface Props {
