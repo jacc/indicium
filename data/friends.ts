@@ -17,7 +17,7 @@ export const Friends: Friend[] = [
   },
   {
     name: "Conrad Crawford",
-    social: "https://twitter.com/cnrad",
+    social: "https://twitter.com/atcnrad",
     info: "Talented developer & friend who helped with the tunes.ninja site",
   },
   {
