@@ -27,6 +27,11 @@ module.exports = {
         destination: "https://last.fm/user/j9ck",
         permanent: true,
       },
+      {
+        source: "/eth",
+        destination: "https://rainbow.me/lafond.eth",
+        permanent: true,
+      },
     ];
   },
 };

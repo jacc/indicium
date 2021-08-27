@@ -12,6 +12,7 @@ import {
   Instagram,
   Linkedin,
   Twitter,
+  Key,
 } from "react-feather";
 
 const handleClick = async () => {
@@ -45,12 +46,14 @@ export default function Home() {
           >
             developer
           </button>
+          , interested in technology.
         </p>
         <div className={"flex flex-wrap space-x-4 mt-3"}>
           <Social href={"/github"} icon={<GitHub></GitHub>} />
           <Social href={"/twitter"} icon={<Twitter></Twitter>} />
           <Social href={"/linkedin"} icon={<Linkedin></Linkedin>} />
           <Social href={"/instagram"} icon={<Instagram></Instagram>} />
+          <Social href={"/eth"} icon={<Key></Key>} />
           <Social href={"/lastfm"} icon={<Headphones></Headphones>} />
           <Social href={"mailto:hi@jack.link"} icon={<Inbox></Inbox>} />
         </div>

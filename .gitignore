@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+.env
+.idea/discord.xml
+.idea/indicium.iml
+.idea/modules.xml
+.idea/prettier.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
