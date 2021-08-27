@@ -46,7 +46,7 @@ export default function Home() {
           >
             developer
           </button>
-          , interested in technology.
+          , interested in cybersecurity and cryptocurrency.
         </p>
         <div className={"flex flex-wrap space-x-4 mt-3"}>
           <Social href={"/github"} icon={<GitHub></GitHub>} />
