@@ -41,7 +41,7 @@ export default function Projects() {
           <ProjectCard
             title={"Creature World Community"}
             description={
-              "Moderator of the Creature World NFT Discord community with almost 20,000 members"
+              "Moderator of the Creature World NFT Discord community with 20,000 members"
             }
             href={"https://discord.gg/creature"}
           />
