@@ -32,6 +32,20 @@ export default function Projects() {
             href={"https://github.com/jacc/music-box"}
           />
           <ProjectCard
+            title={"EthSign"}
+            description={
+              "Sign messages on the Ethereum blockchain"
+            }
+            href={"https://sign.jack.link"}
+          />
+          <ProjectCard
+            title={"Creature World Community"}
+            description={
+              "Moderator of the Creature World NFT Discord community with almost 20,000 members"
+            }
+            href={"https://discord.gg/creature"}
+          />
+          <ProjectCard
             title={"whatrelay"}
             description={
               "WIP revolutionary tool for moderating Discord servers at scale"
