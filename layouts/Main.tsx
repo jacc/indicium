@@ -18,7 +18,7 @@ export const Main = ({
   return (
     <>
       {title && description && <Meta title={title} description={description} />}
-      <FadeIn className="flex flex-col max-w-3xl mx-auto mb-auto sm:px-0 overflow-auto">
+      <FadeIn className="flex flex-col max-w-3xl mx-auto mb-auto sm:px-0 overflow-none">
         {title && <h1 className="text-3xl font-bold">{title}</h1>}
         {description && (
           <p className="text-gray-600 dark:text-gray-400 mt-2">{description}</p>
