@@ -21,7 +21,7 @@ export default function Projects() {
               return (
                 <li key={uuidv4()}>
                   <Link href={friend.social}>
-                    <span className="hover:underline transition duration-300 ease-in-out outline-none focus:outline-none focus:ring text-gray-800 dark:text-gray-300">
+                    <span className="cursor-pointer hover:underline transition duration-300 ease-in-out outline-none focus:outline-none focus:ring text-gray-800 dark:text-gray-300">
                       {friend.name}
                     </span>
                   </Link>{" "}
