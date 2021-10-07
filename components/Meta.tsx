@@ -16,7 +16,6 @@ export const Meta = ({ title, description }: Props) => {
       <meta property="og:url" content="https://jack.link" />
       <meta property="og:site_name" content="jack.link" />
       <meta property="og:image" content="https://github.com/jacc.png" />
-      <meta name="theme-color" content="#93CAED" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content="https://github.com/jacc.png" />
       <meta name="theme-color" 
