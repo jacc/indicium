@@ -15,7 +15,7 @@ export default function Projects() {
         <h2 className="text-xl font-semibold dark:text-white">cool friends</h2>
         <div className="dark:text-gray-500 text-gray-500">
           i have had the pleasure of interacting with some amazing people who
-          have helped me in my development journey - here is a few of em :)
+          have helped me in my development journey - here are a few of em :)
           <div className="pt-2">
             {Friends.map((friend) => {
               return (
