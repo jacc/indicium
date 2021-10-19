@@ -35,6 +35,11 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </div>
       </div>
+      <script
+        async
+        defer
+        src="https://scripts.simpleanalyticscdn.com/latest.js"
+      />
     </>
   );
 }
