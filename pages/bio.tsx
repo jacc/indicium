@@ -29,7 +29,9 @@ export default function Bio() {
           <br />
           <span>
             i’m well versed in TypeScript and Python - i have a keen eye for
-            design and love creating user first interfaces.
+            design and love creating user first interfaces. i've been working heavily
+            in the NFT space, working with artists to build up their Discord communities
+            for upcoming releases and projects.
           </span>
           <br />
           <br />
