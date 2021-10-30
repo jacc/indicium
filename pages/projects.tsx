@@ -41,16 +41,16 @@ export default function Projects() {
           <ProjectCard
             title={"Creature World Community"}
             description={
-              "Moderator of the Creature World NFT Discord community with 20,000 members"
+              "Moderator of the Creature World NFT Discord community with 30,000 members"
             }
             href={"https://discord.gg/creature"}
           />
           <ProjectCard
-            title={"whatrelay"}
+            title={"This website"}
             description={
-              "WIP revolutionary tool for moderating Discord servers at scale"
+              "This website is fully open source!"
             }
-            href={"https://whatrelay.com"}
+            href={"https://github.com/jacc/indicium"}
           />
         </div>
       </Main>
