@@ -29,7 +29,7 @@ export default function Projects() {
             description={
               "Discord bot allowing users to display social media statistics in their Discord server"
             }
-            href={"https://top.gg/bot/822117936251928586"}
+            href={"https://streamticker.bot"}
           />
           <ProjectCard
             title={"music-box"}
@@ -53,7 +53,7 @@ export default function Projects() {
           <ProjectCard
             title={"Brkfst World NFT"}
             description={
-              "Developed numerous solutions for Brjfst World NFT's Discord community"
+              "Developed numerous solutions for Brkfst World NFT's Discord community"
             }
             href={"https://discord.gg/creature"}
           />
