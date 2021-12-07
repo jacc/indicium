@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import { Meta } from "../components/Meta";
 import { Main } from "../layouts/Main";
 import { age } from "../data/age";
