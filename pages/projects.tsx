@@ -25,6 +25,13 @@ export default function Projects() {
             href={"https://tunes.ninja"}
           />
           <ProjectCard
+            title={"StreamTicker"}
+            description={
+              "Discord bot allowing users to display social media statistics in their Discord server"
+            }
+            href={"https://top.gg/bot/822117936251928586"}
+          />
+          <ProjectCard
             title={"music-box"}
             description={
               "Display your Last.fm stats in a GitHub Gist on your profile"
@@ -33,23 +40,26 @@ export default function Projects() {
           />
           <ProjectCard
             title={"EthSign"}
-            description={
-              "Sign messages on the Ethereum blockchain"
-            }
+            description={"Sign messages on the Ethereum blockchain"}
             href={"https://sign.jack.link"}
           />
           <ProjectCard
-            title={"Creature World Community"}
+            title={"Creature World NFT"}
             description={
               "Moderator of the Creature World NFT Discord community with 30,000 members"
             }
             href={"https://discord.gg/creature"}
           />
           <ProjectCard
-            title={"This website"}
+            title={"Brkfst World NFT"}
             description={
-              "This website is fully open source!"
+              "Developed numerous solutions for Brjfst World NFT's Discord community"
             }
+            href={"https://discord.gg/creature"}
+          />
+          <ProjectCard
+            title={"This website"}
+            description={"This website is fully open source!"}
             href={"https://github.com/jacc/indicium"}
           />
         </div>

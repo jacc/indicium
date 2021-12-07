@@ -41,11 +41,6 @@ export const Friends: Friend[] = [
     info: "Amazing developer, friend and hyperpoper working on some super great projects",
   },
   {
-    name: "Bella Fusari",
-    social: "https://twitter.com/bellafusari1",
-    info: "Insanely talented developer",
-  },
-  {
     name: "23Aaron",
     social: "https://twitter.com/23Aaron_",
     info: "One of my best friends and leader of some great projects",
